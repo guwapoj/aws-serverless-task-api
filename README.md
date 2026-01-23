@@ -13,6 +13,11 @@ A fully serverless REST API built on AWS using Lambda, API Gateway, and DynamoDB
 - IAM (role-based access)
 - CloudWatch (logging)
 
+## Security
+- Implemented least-privilege IAM policies restricting Lambda access to specific DynamoDB actions and resources
+- Removed managed full-access policies to reduce attack surface
+- Validated permissions through functional API testing
+
 ## Endpoints
 
 ### POST /tasks
