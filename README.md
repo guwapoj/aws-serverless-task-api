@@ -20,6 +20,15 @@ A fully serverless REST API built on AWS using Lambda, API Gateway, and DynamoDB
 
 ## Endpoints
 
+## Security Monitoring Validation
+
+### CloudWatch Alarm Triggered
+![CloudWatch Alarm](screenshots/cloudwatchalarmfired.png)
+
+### SNS Email Alert
+![SNS Alert](screenshots/snsalertemail.png)
+
+
 ### POST /tasks
 Creates a new task.
 ```json
