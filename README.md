@@ -36,6 +36,12 @@ A fully serverless REST API built on AWS using Lambda, API Gateway, and DynamoDB
 ### SNS Email Alert
 ![SNS Alert](screenshots/snsalertemail.png)
 
+## IAM Misconfiguration Scanner
+
+- Built a Python-based AWS Lambda tool to analyze IAM roles and policies
+- Identified overly permissive permissions such as wildcard actions and resources
+- Generated structured security findings to highlight privilege escalation risks
+
 
 ### POST /tasks
 Creates a new task.
