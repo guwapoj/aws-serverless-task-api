@@ -43,9 +43,3 @@ A fully serverless REST API built on AWS using Lambda, API Gateway, and DynamoDB
 - Generated structured security findings to highlight privilege escalation risks
 
 
-### POST /tasks
-Creates a new task.
-```json
-{
-  "title": "Example task"
-}
