@@ -21,6 +21,14 @@ A fully serverless REST API built on AWS using Lambda, API Gateway, and DynamoDB
 ## Endpoints
 
 ## Security Monitoring Validation
+## Cloud Security Monitoring
+
+- Enabled AWS CloudTrail for account-wide API activity logging across all regions
+- Streamed CloudTrail logs into CloudWatch Logs for centralized analysis
+- Created CloudWatch metric filters to detect IAM privilege changes
+- Configured CloudWatch alarms with SNS email notifications for real-time security alerts
+- Validated alerts by simulating IAM privilege escalation events
+
 
 ### CloudWatch Alarm Triggered
 ![CloudWatch Alarm](screenshots/cloudwatchalarm.png)
